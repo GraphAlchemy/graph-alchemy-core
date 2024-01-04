@@ -1,0 +1,16 @@
+[workspace]
+resolver = "2"
+members = [
+    "rust/types",
+    "rust/public_api"
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+
+[workspace.dependencies]
+hyper = {version = "0.14.0", features = ["full"]}
+tokio = {version = "1.35.1", features = ["full"]}
+anyhow = {version = "1.0.79"}
+serde_json = {version = "1.0.111"}
