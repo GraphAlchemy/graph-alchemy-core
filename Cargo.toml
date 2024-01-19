@@ -14,3 +14,4 @@ hyper = {version = "0.14.0", features = ["full"]}
 tokio = {version = "1.35.1", features = ["full"]}
 anyhow = {version = "1.0.79"}
 serde_json = {version = "1.0.111"}
+serde = {version = "1.0.195", features = ["derive"]}
